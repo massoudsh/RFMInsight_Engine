@@ -9,10 +9,10 @@ import os
 import warnings
 from typing import Optional, Dict, Any, Tuple
 
-from core.data_processor import DataProcessor
-from core.rfm_calculator import RFMCalculator
-from visualization.plotter import RFMPlotter
-from strategy.marketing_strategies import MarketingStrategyGenerator
+from src.core.data_processor import DataProcessor
+from src.core.rfm_calculator import RFMCalculator
+from src.visualization.plotter import RFMPlotter
+from src.strategy.marketing_strategies import MarketingStrategyGenerator
 
 
 class RFMInsightEngine:

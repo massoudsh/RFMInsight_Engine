@@ -194,24 +194,41 @@ CUST002,2024-01-16,75.50,INV003
 
 ## 🎨 Visualization Gallery
 
-The RFM Insight Engine generates comprehensive visualizations including:
+The RFM Insight Engine generates comprehensive visualizations. Here are some examples from our analysis:
 
-### 📊 **Generated Visualizations**
-- **Segment Distribution**: Bar charts and pie charts showing customer distribution across segments
-- **RFM Heatmap**: Color-coded heatmap displaying average RFM scores by segment
-- **3D Scatter Plot**: Interactive Plotly-based 3D visualization of RFM dimensions
-- **Customer Journey**: Funnel visualization showing customer lifecycle stages
-- **Cluster Analysis**: Comparison between rule-based segments and ML clusters
-- **Budget Allocation**: Visual representation of recommended marketing budget distribution
+<div align="center">
 
-### 📈 **Sample Output Files**
-After running the analysis, you'll find these visualization files in the `output/` directory:
+### 📊 **Customer Segment Distribution**
+![Segment Distribution](docs/images/segment_distribution.png)
+*Distribution of 800 customers across 9 distinct segments*
+
+### 🎯 **RFM Heatmap by Segment**
+![RFM Heatmap](docs/images/rfm_heatmap.png)
+*Average RFM scores (1-5 scale) for each customer segment*
+
+### 📈 **RFM Metric Distributions**
+![RFM Distributions](docs/images/rfm_distributions.png)
+*Distribution patterns of Recency, Frequency, and Monetary values*
+
+### 🗺️ **Customer Journey Stages**
+![Customer Journey](docs/images/customer_journey.png)
+*Visualization of customer lifecycle stages and progression*
+
+</div>
+
+### 📈 **Complete Visualization Suite**
+The engine generates these visualization files in the `output/` directory:
 - `rfm_distributions.png` - RFM metric distributions
 - `segment_distribution.png` - Customer segment charts
 - `rfm_heatmap.png` - RFM scores heatmap
 - `rfm_3d_plot.html` - Interactive 3D scatter plot
 - `segment_vs_cluster.png` - Segment vs cluster comparison
 - `customer_journey.png` - Customer journey visualization
+
+### 🎨 **Interactive Features**
+- **3D Scatter Plots**: Hover to see customer details
+- **Professional Reports**: HTML reports with embedded charts
+- **Export Options**: PNG, HTML, and CSV formats
 
 ---
 

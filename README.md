@@ -49,8 +49,8 @@ This analysis helps businesses **identify customer value**, **predict churn**, a
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/rfm-insight-engine.git
-cd rfm-insight-engine
+git clone https://github.com/massoudsh/RFMInsight_Engine.git
+cd RFMInsight_Engine
 
 # Create virtual environment
 python3 -m venv venv
@@ -194,17 +194,24 @@ CUST002,2024-01-16,75.50,INV003
 
 ## 🎨 Visualization Gallery
 
-<div align="center">
+The RFM Insight Engine generates comprehensive visualizations including:
 
-| 📊 **Segment Distribution** | 🎯 **RFM Heatmap** | 🚀 **3D Scatter Plot** |
-|:---:|:---:|:---:|
-| ![Segment Distribution](https://via.placeholder.com/300x200/4CAF50/white?text=Segment+Distribution) | ![RFM Heatmap](https://via.placeholder.com/300x200/2196F3/white?text=RFM+Heatmap) | ![3D Plot](https://via.placeholder.com/300x200/FF9800/white?text=3D+Scatter+Plot) |
+### 📊 **Generated Visualizations**
+- **Segment Distribution**: Bar charts and pie charts showing customer distribution across segments
+- **RFM Heatmap**: Color-coded heatmap displaying average RFM scores by segment
+- **3D Scatter Plot**: Interactive Plotly-based 3D visualization of RFM dimensions
+- **Customer Journey**: Funnel visualization showing customer lifecycle stages
+- **Cluster Analysis**: Comparison between rule-based segments and ML clusters
+- **Budget Allocation**: Visual representation of recommended marketing budget distribution
 
-| 🎯 **Customer Journey** | 📈 **Cluster Analysis** | 💰 **Budget Allocation** |
-|:---:|:---:|:---:|
-| ![Customer Journey](https://via.placeholder.com/300x200/9C27B0/white?text=Customer+Journey) | ![Cluster Analysis](https://via.placeholder.com/300x200/F44336/white?text=Cluster+Analysis) | ![Budget Allocation](https://via.placeholder.com/300x200/607D8B/white?text=Budget+Allocation) |
-
-</div>
+### 📈 **Sample Output Files**
+After running the analysis, you'll find these visualization files in the `output/` directory:
+- `rfm_distributions.png` - RFM metric distributions
+- `segment_distribution.png` - Customer segment charts
+- `rfm_heatmap.png` - RFM scores heatmap
+- `rfm_3d_plot.html` - Interactive 3D scatter plot
+- `segment_vs_cluster.png` - Segment vs cluster comparison
+- `customer_journey.png` - Customer journey visualization
 
 ---
 
@@ -212,8 +219,8 @@ CUST002,2024-01-16,75.50,INV003
 
 ### Option 1: Quick Install (Recommended)
 ```bash
-git clone https://github.com/yourusername/rfm-insight-engine.git
-cd rfm-insight-engine
+git clone https://github.com/massoudsh/RFMInsight_Engine.git
+cd RFMInsight_Engine
 pip install -r requirements.txt
 python run_analysis.py
 ```
@@ -350,9 +357,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 🌟 **Ready to transform your customer analytics?**
 
-[![Get Started](https://img.shields.io/badge/Get%20Started-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername/rfm-insight-engine)
+[![Get Started](https://img.shields.io/badge/Get%20Started-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/massoudsh/RFMInsight_Engine)
 [![View Demo](https://img.shields.io/badge/View%20Demo-4ECDC4?style=for-the-badge&logo=jupyter&logoColor=white)](notebooks/demo_rfm_analysis.ipynb)
-[![Documentation](https://img.shields.io/badge/Documentation-45B7D1?style=for-the-badge&logo=gitbook&logoColor=white)](docs/)
+[![Documentation](https://img.shields.io/badge/Documentation-45B7D1?style=for-the-badge&logo=gitbook&logoColor=white)](#-documentation)
 
 ---
 

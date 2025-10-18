@@ -1,0 +1,3 @@
+"""
+Core RFM analysis modules
+"""
